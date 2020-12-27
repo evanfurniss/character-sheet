@@ -5,3 +5,8 @@
 // console.log random number based on diceSize and diceNum
     // for loop?    (let i=0; i<_____; i++)
 // console.log random number based on all 3 inputs
+document.getElementById("rollButton").addEventListener("click", rollFunction);
+
+function rollFunction() {
+  console.log("Hello World!")
+}
