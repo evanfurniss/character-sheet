@@ -13,4 +13,5 @@ function rollFunction() {
   }
   totalNum += modifier;
   console.log("Total: " + totalNum);
+  document.getElementById("result").innerHTML = "Total: " + totalNum;
 }
