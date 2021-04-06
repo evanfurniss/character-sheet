@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="DnD-icon.png">
-    <title>Character Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
 </head>
 <body>
-    <span>Number of dice: </span><input id="diceNum" type="number" value="0">
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="dice-roller.html">Dice Roller</a></li>
+                <li><a href="character-sheet.html">Character Sheet</a></li>
+                <li><a href="blank-sheet.html">Character Creator</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="index">Dungeons and Dragons</h1>
+    <h2 class="index">Character Sheet Tracker</h2>
     <br>
-    <span>Size of dice: </span><input id="diceSize" type="number" value="0">
-    <br>
-    <span>Modifier: </span><input id="modifier" type="number" value="0">
-    <br>
-    <button id="rollButton" >Roll!</button>
-    <br>
-    <span id="noMod"></span>
-    <br>
-    <span id="result"></span>
-    <script src="script.js"></script>
+    <main class="index">
+        <p>This website was created in order to act as an online character tracker,<br> maintain item inventory, and roll dice based on the roll needed.</p>
+        <p>Below is a list of available services on this webpage:</p>
+        <ul class="nav">
+            <li><a href="dice-roller.html">Dice Roller</a></li>
+            <li><a href="character-sheet.html">Character Sheet</a></li>
+            <li><a href="blank-sheet.html">Character Creator</a></li>
+        </ul>
+        <p>With these links, you can roll dice based on your or your characters needs,<br> input/manage an existing character, or create a new to be managed.</p>
+    </main>
 </body>
 </html

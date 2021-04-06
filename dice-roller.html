@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="DnD-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Roller</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dice-roller.html" class="active">Dice Roller</a></li>
+                <li><a href="character-sheet.html">Character Sheet</a></li>
+                <li><a href="blank-sheet.html">Character Creator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="diceRoller">
+        <span>Number of dice: </span><input id="diceNum" type="number" value="0">
+        <br>
+        <span>Size of dice: </span><input id="diceSize" type="number" value="0">
+        <br>
+        <span>Modifier: </span><input id="modifier" type="number" value="0">
+        <br>
+        <button id="rollButton" >Roll!</button>
+        <br>
+        <span id="noMod"></span>
+        <br>
+        <span id="result"></span>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="DnD-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Character Sheet</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dice-roller.html">Dice Roller</a></li>
+                <li><a href="character-sheet.html" class="active">Character Sheet</a></li>
+                <li><a href="blank-sheet.html">Character Creator</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="">
+        <label for="charName">Character Name</label>
+        <input type="text" name="charName" id="charName">
+        <br>
+        <label for="charClass">Class</label>
+        <input type="text" name="charClass" id="charClass">
+        <br>
+        <label for="level">Level</label>
+        <input type="text" name="level" id="level">
+        <br>
+        <label for="race">Race</label>
+        <input type="text" name="race" id="race">
+        <br>
+        <label for="alignment">Alignment</label>
+        <input type="text" name="alignment" id="alignment">
+        <br>
+        <label for="xp">Experience Points</label>
+        <input type="text" name="xp" id="xp">
+        <br>
+        <br>
+        <label for="strength">Strength</label>
+        <input type="text" name="strength" id="strength">
+        <br>
+        <label for="dex">Dexterity</label>
+        <input type="text" name="dex" id="dex">
+        <br>
+        <label for="con">Constitution</label>
+        <input type="text" name="con" id="con">
+        <br>
+        <label for="intel">Intelligence</label>
+        <input type="text" name="intel" id="intel">
+        <br>
+        <label for="wisdom">Wisdom</label>
+        <input type="text" name="wisdom" id="wisdom">
+        <br>
+        <label for="charisma">Charisma</label>
+        <input type="text" name="charisma" id="charisma">
+        
+        
+        <br>
+        <br>
+        <button type="button" onclick="charSheetPrint()">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
